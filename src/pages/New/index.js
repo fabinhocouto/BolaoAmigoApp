@@ -97,8 +97,8 @@ export default function New({ navigation }){
 }
 
 New.navigationOptions = {
-  tabBarLabel: 'Registrar',
-  tabBarIcon: ({ tintColor }) => (
+  drawerLabel: 'Registrar',
+  drawerIcon: ({ tintColor }) => (
     <Icon name="edit" size={24} color={tintColor} />
   )
 };

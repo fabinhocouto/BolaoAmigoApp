@@ -6,8 +6,10 @@ import Dashboard from './pages/Dashboard'
 import Preload from './components/Preload'
 import NewRodada from './pages/NewRodada';
 import NewResultadoMegaSena from './pages/NewResultadoMegaSena';
+import ViewResultadoMegaSena from './pages/ViewResultadoMegaSena';
 import Profile from './pages/Profile'
 import { createDrawerNavigator} from 'react-navigation-drawer'
+import CustomDrawer from './components/CustomDrawer';
 
 const Routes = createAppContainer(
     createSwitchNavigator(
@@ -21,9 +23,11 @@ const Routes = createAppContainer(
           Dashboard,
           NewRodada,
           NewResultadoMegaSena,
+          ViewResultadoMegaSena,
           Profile
         },{
-          
+        //contentComponent: CustomDrawer,
+        drawerBackgroundColor:'#222'  
         })
       },
     ),

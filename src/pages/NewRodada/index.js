@@ -86,8 +86,8 @@ export default function NewRodada({ navigation }){
 }
 
 NewRodada.navigationOptions = {
-  tabBarLabel: 'Registrar',
-  tabBarIcon: ({ tintColor }) => (
+  drawerLabel: 'Registrar',
+  drawerIcon: ({ tintColor }) => (
     <Icon name="edit" size={24} color={tintColor} />
   )
 };

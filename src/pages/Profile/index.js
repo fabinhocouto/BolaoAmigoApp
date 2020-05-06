@@ -54,8 +54,8 @@ export default function Profile(){
 }
 
 Profile.navigationOptions = {
-  tabBarLabel: 'Perfil',
-  tabBarIcon: ({ tintColor }) => (
+  drawerLabel: 'Perfil',
+  drawerIcon: ({ tintColor }) => (
     <Icon name="account-circle" size={24} color={tintColor} />
   )
 };

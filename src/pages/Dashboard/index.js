@@ -85,8 +85,8 @@ export default function Dashboard({ navigation }){
 }
 
 Dashboard.navigationOptions = {
-  tabBarLabel: 'Home',
-  tabBarIcon: ({ tintColor }) => (
+  drawerLabel: 'Home',
+  drawerIcon: ({ tintColor }) => (
     <Icon name="equalizer" size={24} color={tintColor} />
   )
 };
